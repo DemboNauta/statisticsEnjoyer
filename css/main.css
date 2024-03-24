@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+nav{
+    background-color: #e86b1c;
+    color: white;
+    display: flex;
+    padding: 20px;
+    font-weight: 530;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+nav ul li:hover{
+    background-color: #f7efe9;
+    color: #e86b1c;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+#formulario{
+    border: 2px solid #e86b1c;
+    min-height: 600px;
+    width: 70%;
+    border-radius: 8px;
+    background-color: #e86a1c14;
+}

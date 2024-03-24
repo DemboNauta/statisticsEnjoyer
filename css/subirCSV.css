@@ -1,0 +1,32 @@
+.familias .row .col{
+    padding: 80px 10px;
+    border: 1px solid red;
+    border-radius: 2px;
+    margin-bottom: 10px;
+    max-width: 28%;
+
+}
+.familias .row .col input{
+    margin-top: 30px;
+
+}
+.familias .row .col select{
+    width: 80%;
+}
+.familias .row{
+    gap: 10px;
+    text-align: center;
+}
+input[type="text"]{
+    width: 80%;
+}
+
+input[type="radio"]:checked{
+    background-color: #e86b1c;
+}
+
+.borderCIFP{
+    border: 1px solid #e86b1c;
+    border-radius: 2px;
+    padding: 10px;
+}

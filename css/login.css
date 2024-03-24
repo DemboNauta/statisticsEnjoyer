@@ -1,0 +1,166 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: arial;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 250px;
+}
+header div div{
+    display: inline-grid;
+    text-align: center;
+    padding: 20px;
+    justify-content: center;
+
+}
+header div div h3{
+    margin-top: 5px;
+    font-size: 12px;
+    font-weight: 300;
+   
+}
+header div div a{
+    text-decoration: none;
+    color: black;
+   
+}
+nav{
+    background-color: #e86b1c;
+    color: white;
+    display: flex;
+    padding: 20px;
+    font-weight: 530;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 80px;
+    margin-bottom: 0;
+
+}
+nav ul li{
+    display: inline;
+    padding: 10px;
+    transition: all 0.2s ease;
+}
+
+nav ul li:hover{
+    background-color: #f7efe9;
+    color: #e86b1c;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+    transition: all 0.4s ease;
+}
+.container input:focus{
+    background-color: #fffefdc1;
+}
+.fondoNaranja{
+    background-color: #e86b1c;
+    transition: all 0.4s ease;
+}
+.fondoNaranja:hover{
+    background-color: #c65c1a;
+}
+.formulario{
+    border: 2px solid #e86b1c;
+    padding: 50px;
+    width: 20%;
+    border-radius: 5px;
+    background-image: url("../img/logocentro.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #e86a1c6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    -webkit-box-shadow: 4px 7px 5px 0px rgba(148,103,75,0.84);
+    -moz-box-shadow: 4px 7px 5px 0px rgba(148,103,75,0.84);
+    box-shadow: 4px 7px 5px 0px rgba(148,103,75,0.84);
+    color: white;
+
+}
+.formulario form input[type="submit"]{
+    padding: 10px;
+    background-color: #e86a1ce6;
+    color: white;
+    border: 1px solid white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+    transition: all 0.2s linear;
+}
+
+.formulario form input[type="submit"]:hover{
+    padding: 10px;
+    background-color: #cb5d19f9;
+    transform: scale(1.02);
+}
+.formulario form #usuario, #contrasena{
+    font-size: 15x;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 100%;
+}
+#formError{
+    width: 20%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;
+    background-color: #e86a1ce3;
+    text-align: center;
+    border-radius: 4px;
+    padding: 20px;
+    color: white;
+}
+.cerrarSesion{
+    text-align: right;
+    padding: 10px;
+}
+.cerrarSesion input{
+    padding: 5px;
+    border-radius: 4px;
+    
+}
+
+
+.menu-toggle {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: black;
+    display: none;
+}
+
+.formulario form label{
+    background-color: rgba(0, 0, 0, 0.443);
+    font-weight: bold;
+    padding: 3px;
+}
+
+@media (max-width: 1350px) {
+    .logos div {
+        display: none;
+    }
+
+   
+}

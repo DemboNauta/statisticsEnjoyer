@@ -1,0 +1,13 @@
+# Ignorar todos los archivos en la carpeta tcpdf
+tcpdf/*
+!tcpdf/tcpdf.php
+
+# Ignorar todos los archivos en las subcarpetas de tcpdf
+tcpdf/*/*
+tcpdf/*/*/*
+...
+
+# Excepto los archivos php en las subcarpetas de tcpdf
+!tcpdf/*/*.php
+!tcpdf/*/*/*.php
+...
