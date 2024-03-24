@@ -10,4 +10,5 @@ https://statisticsenyojer.000webhostapp.com/
 ![image](https://github.com/DemboNauta/statisticsEnjoyer/assets/126664376/8916ce30-e6dd-4f39-a8e2-7b4746d327cd)
 
 
-![image](https://github.com/DemboNauta/statisticsEnjoyer/assets/126664376/731a95e8-5c14-4e2a-a5e6-6f44ae6d3328)
+![image](https://github.com/DemboNauta/statisticsEnjoyer/assets/126664376/d7e1f9dc-cb05-4a6c-9fcd-aefafc63d588)
+
